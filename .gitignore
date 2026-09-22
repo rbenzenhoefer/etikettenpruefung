@@ -1,0 +1,13 @@
+# Umgebung
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# generierte Daten und Ergebnisse
+data/
+data_test/
+data_check/
+logs/
+models/
+*.blend1

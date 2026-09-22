@@ -1,0 +1,20 @@
+[project]
+name = "3d-dosen-prototyp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "opencv-python>=5.0.0.93",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.13.1",
+    "segmentation-models-pytorch>=0.5.0",
+    "torch>=2.8.0",
+]
+
+[project.scripts]
+3d-dosen-prototyp = "3d_dosen_prototyp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
